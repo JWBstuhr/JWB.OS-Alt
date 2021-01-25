@@ -10,7 +10,7 @@ if input == "1" then
  print("(yes/no, y/n)")
  input = read()
  if input == "yes" or input == "y" then
-  shell.run("rm .back")
+  shell.run("rm back")
   shell.run("rm startup.lua")
   shell.run("rm os/")
   print("Complete. Rebooting.")
@@ -28,7 +28,7 @@ if input == "1" then
 elseif input == "2" then
  term.clear()
  term.setCursorPos(1,1)
- shell.run("rm .back")
+ shell.run("rm back")
  shell.run("rm startup.lua")
  shell.run("rm os/")
  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/startup.lua startup.lua")
