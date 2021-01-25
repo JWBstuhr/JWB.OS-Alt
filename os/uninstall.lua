@@ -34,6 +34,7 @@ elseif input == "2" then
  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/startup.lua startup.lua")
  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/back.lua back")
  shell.run("mkdir os")
+ shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/os/main.lua os/main")
  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/os/files.lua os/files")
  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/os/cmd.lua os/cmd")
  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/os/programs.lua os/programs")
