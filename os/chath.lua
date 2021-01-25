@@ -5,4 +5,4 @@ print("(Input a Number)")
 input = read()
 local chost = input
 shell.run("fg chat host "..chost)
-shell.run(".back")
+shell.run("back")
