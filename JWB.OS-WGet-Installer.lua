@@ -12,3 +12,4 @@ shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/os/.chatj
 shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS/main/os/.uninstall.lua os/.uninstall")
 print("Done. Rebooting...")
 sleep(2)
+os.reboot()
