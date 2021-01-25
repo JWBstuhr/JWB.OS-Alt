@@ -12,5 +12,7 @@ shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/os/ch
 shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/os/chatj.lua os/chatj")
 shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/os/uninstall.lua os/uninstall")
 print("Done. Rebooting...")
+local installname = shell.getRunningProgram()
+shell.run("rm "..installname)
 sleep(2)
 os.reboot()
