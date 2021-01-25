@@ -5,7 +5,7 @@
             Cruor
             BigSHinyToys
         
-        note: send link to nightin9ale on CC forums
+        Edited & Integrated by JWBstuhr
 --]]
  
 local tArgs = {...}
