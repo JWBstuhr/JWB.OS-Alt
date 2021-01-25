@@ -1033,7 +1033,7 @@ local function main()
         clear()
         fileSelect()
         clear()
-        shell.run(".back")
+        shell.run("back")
     else
         error("Not an Advanced Computer (gold) ")
     end
