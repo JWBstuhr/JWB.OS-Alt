@@ -8,4 +8,4 @@ print("What do you want to be named in chat?")
 input = read()
 local name = input
 shell.run("fg chat join "..cjoin.." "..name)
-shell.run(".back")
+shell.run("back")
