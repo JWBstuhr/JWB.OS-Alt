@@ -1,4 +1,4 @@
---[ Run 'wget run https://github.com/JWBstuhr/JWB.OS/JWB.OS-WGet-Installer.lua' to Install ]--
+--[ Run 'wget run https://github.com/JWBstuhr/JWB.OS/blob/main/JWB.OS-WGet-Installer.lua' to Install ]--
 
 print("Installing...")
 shell.run("wget https://github.com/JWBstuhr/JWB.OS/blob/main/startup.lua startup.lua")
