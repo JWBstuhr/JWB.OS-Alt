@@ -1,5 +1,0 @@
-term.clear()
-term.setCursorPos(1,1)
-print("CraftOS Command Prompt")
-print("Type \".back\" to return.")
-print("-------------------------")
