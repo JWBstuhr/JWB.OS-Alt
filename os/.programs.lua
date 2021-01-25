@@ -72,21 +72,21 @@ while true do
 term.clear()
  
 if nOption == 1 then
- shell.run("os/.chath")
+ shell.run("os/chath")
 elseif nOption == 2 then
- shell.run("os/.chatj")
+ shell.run("os/chatj")
 elseif nOption == 3 then
  shell.run("fg worm")
- shell.run(".back")
+ shell.run("back")
 elseif nOption == 4 then
  if fs.exists("falling") == false then
-  shell.run("wget https://github.com/JWBstuhr/JWB.OS/blob/main/falling.lua falling")
+  shell.run("wget https://raw.githubusercontent.com/JWBstuhr/JWB.OS-Alt/main/falling.lua falling")
  end
  shell.run("fg falling")
- shell.run(".back")
+ shell.run("back")
 elseif nOption == 5 then
  shell.run("fg adventure")
- shell.run(".back")
+ shell.run("back")
 else
- shell.run(".back")
+ shell.run("back")
 end
