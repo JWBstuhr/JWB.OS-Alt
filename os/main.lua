@@ -69,13 +69,13 @@ while true do
 term.clear()
  
 if nOption == 1 then
- shell.run("os/.files")
+ shell.run("os/files")
 elseif nOption == 2 then
- shell.run("os/.cmd")
+ shell.run("os/cmd")
 elseif nOption == 3 then
- shell.run("os/.programs")
+ shell.run("os/programs")
 elseif nOption == 4 then
  os.shutdown()
 else
- shell.run("os/.uninstall")
+ shell.run("os/uninstall")
 end
